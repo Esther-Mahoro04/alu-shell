@@ -1,0 +1,4 @@
+#!/bin/bash
+# This script creates a symbolic link named __ls__ to /bin/ls in the current directory.
+
+ln -s /bin/ls __ls__
