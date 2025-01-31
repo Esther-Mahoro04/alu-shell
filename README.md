@@ -1,3 +1,4 @@
-peggy
-Esther
-
+#!/bin/bash
+pwd
+read OUTPUT
+echo "$OUTPUT"
