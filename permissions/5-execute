@@ -1,7 +1,2 @@
 #!/bin/bash
-if [ -e hello ]; then
-    chmod u+x hello
-    echo "Execute permission added to the owner of the file 'hello'."
-else
-    echo "The file 'hello' does not exist in the current directory."
-fi
+chmod +x 5-execute
