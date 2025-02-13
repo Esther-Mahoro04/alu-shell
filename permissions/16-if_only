@@ -1,2 +1,6 @@
 #!/bin/bash
-chmod u+x hello
+
+if [ "$(stat -c '%U' hello)" = "guillaume" ]
+then
+  sudo chown vincent:vincent hello
+fi
