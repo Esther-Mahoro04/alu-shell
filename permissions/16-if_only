@@ -1,6 +1,2 @@
 #!/bin/bash
-
-if [ "$(stat -c '%U' hello)" = "guillaume" ]
-then
-  sudo chown vincent:vincent hello
-fi
+grep -A 3 "root" /etc/passwd
