@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x iacta
+awk 'NR==3' iacta
